@@ -1,0 +1,509 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/73de4ac73f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <title>Tidy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        :root {
+            --primary-color: rgb(24, 24, 46);
+            --hmza: 1px;
+            --white: white;
+            
+
+        }
+
+        .white {
+            color: var(--white)
+        }
+
+        .dark-grey {
+            background-color: var(--primary-color)
+        }
+
+        .container-fluid {
+            border: 1px solid var(--primary-color);
+        }
+
+        .container {
+            border: var(--hmza) solid red;
+        }
+
+
+        .row {
+            border: 1px solid green;
+        }
+
+        .col {
+            border: 1px solid white;
+        }
+
+        .cstm-color {
+            background-color: var(--primary-color);
+        }
+
+        .aa{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        .elisha {
+            clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+        }
+        .col-6{
+            border: 1px solid red
+        }
+        .blue-goal{
+            border-left: 1px solid grey;
+        }
+        .blue-goal::before{
+            content: '';
+            position:absolute;
+            left: -5px;
+            top: -6px;
+            height: 8px;
+            width: 8px;
+            background-color: blue;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- first div -->
+    <div data-hamza class="container-fluid py-3 cstm-color dark-grey  ">
+        <div class="container">
+            <div class="row">
+                <div class="col col-8">
+                    <img src="./pics/logo.svg" alt="">W
+
+                </div>
+                <div class="col col-4" style="background-color:rgb(24, 24, 46);">
+                    <a class="aa" href="#" class="text-secondary font-weight-bold ml-4" style="font-size: 1.11rem;">Secondary
+                        page</a>
+                    <button type="button" class="btn btn-primary font-weight-bold px-4 ml-5">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second div image -->
+    <div class="container-fluid elisha py-5 dark-grey">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col pt-5">
+                    <h1 class="text-white font-weight-bold"
+                        style="font-family: Playfair Display, serif; font-size: 3.5rem;">Landing template<br>for
+                        startups</h1>
+                    <p class="white" style="font-size: 1.2rem;">Our landing page template works on all devices,
+                        so<br>you only have to set it up once, and get beautiful<br>results forever.</p>
+                    <div class="d-flex border border-white row p-0 m-0 justify-content-start ml-4 mt-3">
+                        <button type="button" class="btn btn-primary font-weight-bold px-4 py-2">Pricing and
+                            planS s</button>
+                        <button type="button" class="btn btn-secondary font-weight-bold px-4 py-2 ml-3">Learn
+                            more</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <a href=""><img src="./pics/video-placeholder.jpg" alt="" class="w-100 h-100"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6 divs -->
+    <div class="container-fluid  bg-white py-5  ">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0">
+                        <img src="./pics/feature-tile-icon-01.svg" alt="" class="bg-primary rounded-circle"
+                            style="height: 64px;width: 64px;">
+                        <div class="card-body">
+                            <h5 class="card-title h4 font-weight-bold" style="font-family: Playfair Display serif;">
+                                Robust Workflow</h5>
+                            <p class="card-text w-100 text-muted" style="font-size: 1.11rem;">Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0">
+                        <img src="./pics/feature-tile-icon-02.svg" 0alt="" class="bg-primary rounded-circle"
+                            style="height: 64px;width: 64px;" style="height: 64px;width: 64px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title h4 font-weight-bold" style="font-family: Playfair Display serif;">
+                                Robust Workflow</h5>
+                            <p class="card-text w-100 text-muted" style="font-size: 1.11rem;">Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0">
+                        <img src="./pics/feature-tile-icon-03.svg" alt="" class="bg-primary rounded-circle"
+                            style="height: 64px;width: 64px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title h4 font-weight-bold" style="font-family: Playfair Display serif;">
+                                Robust Workflow</h5>
+                            <p class="card-text w-100 text-muted" style="font-size: 1.11rem;">Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint occaecat cupidatat.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 2 row -->
+
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <img src="./pics/feature-tile-icon-04.svg" alt="" class="bg-primary rounded-circle"
+                            style="height: 64px;width: 64px;">
+                        <div class="card-body">
+                            <h5 class="card-title h4 font-weight-bold" style="font-family: Playfair Display serif;">
+                                Robust
+                                Workflow</h5>
+                            <p class="card-text w-100 text-muted" style="font-size: 1.11rem;">Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <img src="./pics/feature-tile-icon-05.svg" alt="" class="bg-primary rounded-circle"
+                            style="height: 64px;width: 64px;">
+
+                        <div class="card-body">
+                            <h5 class="card-title h4 font-weight-bold" style="font-family: Playfair Display serif;">
+                                Robust
+                                Workflow</h5>
+                            <p class="card-text w-100 text-muted" style="font-size: 1.11rem;">Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card border-0">
+                        <img src="./pics/feature-tile-icon-06.svg" alt="" class="bg-primary rounded-circle"
+                            style="height: 64px;width: 64px;">
+
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title h4 font-weight-bold" style="font-family: Playfair Display serif;">
+                                Robust
+                                Workflow</h5>
+                            <p class="card-text w-100 text-muted" style="font-size: 1.11rem;">Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- line -->
+    <div class="container bg-light border-light border"></div>
+
+    <!-- built -->
+
+    <div class="container-fluid bg-white py-5">
+        <div class="container pt-4">
+            <div class="row d-flex flex-column align-content-center">
+                <h3 class="h1 font-weight-bold ml-5" style="font-family: Playfair Display serif;">Built exclusively for
+                    you</h3>
+                <p class="text-secondary text-center" style="font-size: 1.3rem;">Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui<br>officia deserunt mollit anim id est laborum — semper quis
+                    lectus<br>nulla at volutpat diam ut venenatis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- feedback 4 divs-->
+    <div class="container-fluid bg-white py-5">
+        <div class="container pt-4">
+            <div class="row d-flex justify-content-center">
+                <div class="card d-flex  flex-column align-content-center mr-3 border-0">
+                    <img src="./pics/features-tabs-icon-01.svg"
+                        class="card-img-top rounded-circle border-secondary border ml-5" alt="..."
+                        style="height: 50px; width: 50px;">
+                    <h5 class="card-title mt-1">Internal Feedback</h5>
+                </div>
+                <div class="card d-flex  flex-column align-content-center mr-3 border-0">
+                    <img src="./pics/features-tabs-icon-02.svg"
+                        class="card-img-top rounded-circle border-secondary border ml-5" alt="..."
+                        style="height: 50px; width: 50px;">
+                    <h5 class="card-title text-muted mt-1">Internal Feedback</h5>
+                </div>
+                <div class="card d-flex  flex-column align-content-center mr-3 border-0">
+                    <img src="./pics/features-tabs-icon-03.svg"
+                        class="card-img-top rounded-circle border-secondary border ml-5" alt="..."
+                        style="height: 50px; width: 50px;">
+                    <h5 class="card-title text-muted mt-1">Internal Feedback</h5>
+                </div>
+                <div class="card d-flex  flex-column align-content-center mr-3 border-0">
+                    <img src="./pics/features-tabs-icon-04.svg"
+                        class="card-img-top rounded-circle border-secondary border ml-5" alt="..."
+                        style="height: 50px; width: 50px;">
+                    <h5 class="card-title text-muted mt-1">Internal Feedback</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- colage pic -->
+    <div class="container-fluid pb-5">
+        <div class="container pl-5">
+            <div class="row pl-5">
+                <img src="./pics/features-tabs-image.png" alt="" class="ml-5" style="width:896px; height: 505px;">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Product news and updates div -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row d-flex flex-column align-content-center">
+                <h2 class="h1 font-weight-bold ml-5" style="font-family: Playfair Display serif;">Product news and
+                    updates</h2>
+                <p class="text-secondary text-center" style="font-size: 1.3rem;">Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui <br>officia deserunt mollit anim id est laborum consequat.</p>
+            </div>
+            <div class="row">
+                <div class="col-4 ">
+                    <div class="card">
+                        <img src="./pics/news-image-01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title font-weight-bold">How to build anything</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex..</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="card">
+                        <img src="./pics/news-image-02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">How to build anything</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex..</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <div class="card">
+                        <img src="./pics/news-image-03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">How to build anything</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex..</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product roadmap -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row d-flex flex-column align-content-center justify-content-center ">
+                <h2 class="h1 font-weight-bold  text-center" style="font-family: Playfair Display serif;">Product roadmap</h2>
+                <p class="text-secondary text-center" style="font-size: 1.3rem;">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis   <br>semper quis lectus nulla at volutpat diam ut venenatis tellus in<br>ornare.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 ">2</div>
+                <div class="col-6 blue-goal ">
+                 <p class="text-secondary ml-4 font-weight-bold ">NOVEMBER 2019</p>
+                    <h4 class=" font-weight-bold ml-4 pb-5 " style="font-family: sans-serif;">Deployed a high-quality first release and conducted a market validation test</h4>
+                </div>
+                <div class="col-6 b ">
+                    <p class="text-secondary ml-4 font-weight-bold d-flex justify-content-end">DECEMBER 2019</p>
+                    <h4 class=" font-weight-bold ml-4 pb-5 " style="font-family: sans-serif;">Deployed a high-quality first release and conducted a market validation test</h4>
+                
+                </div>
+                <div class="col-6 blue-goal "></div>
+                <div class="col-6 ">
+                    
+                </div>
+                <div class="col-6 blue-goal ">
+                    <p class="text-secondary ml-4 font-weight-bold">JANUARY 2020</p>
+                    <h4 class=" font-weight-bold ml-4 pb-5 " style="font-family: sans-serif;">Deployed a high-quality first release and conducted a market validation test</h4>
+                
+                </div>
+                <div class="col-6">
+                    <p class="text-secondary ml-4 font-weight-bold d-flex justify-content-end">FEBRUARY 2019</p>
+                    <h4 class=" font-weight-bold ml-4 pb-5 " style="font-family: sans-serif;">Deployed a high-quality first release and conducted a market validation test</h4>
+                
+                </div>
+                <div class="col-6 blue-goal"></div>
+                <div class="col-6"></div>
+                <div class="col-6 blue-goal">
+                    <p class="text-secondary ml-4 font-weight-bold">MARCH 2020</p>
+                    <h4 class=" font-weight-bold ml-4 pb-5 " style="font-family: sans-serif;">Deployed a high-quality first release and conducted a market validation test</h4>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid dark-grey">
+        <div class="container">
+            <div class="row d-flex flex-column align-content-center justify-content-center">
+                <h3 class="h1 font-weight-bold text-center text-white p-5" style="font-family: Playfair Display serif; font-size: 3rem;">Simple, transparent pricing</h3>
+                <p class="text-secondary text-center mb-5" style="font-size: 1.3rem ;margin-top: -2rem;">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis<br> semper quis lectus nulla at volutpat diam ut venenatis tellus in <br> ornare.</p>
+            </div>
+
+            <div class="row d-flex flex-column align-content-center justify-content-center py-4">
+                <h6 class="font-weight-bold text-center text-white p-3">How many users do you have?</h6>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">  
+                        <div class="d-flex ml-4 mt-5">
+                            <h2 class="text-secondary font-weight-bold mt-1">$</h2>
+                            <h1 style="font-family:Playfair Display, serif;" class="font-weight-bold">27</h1>
+                            <p class="text-secondary mt-3 h6">/m</p>
+                        </div>
+                        <p class="ml-4 text-secondary">Lorem ipsum is a common text</p>
+                        <div class="card-body">
+                          <h6 class="card-title font-weight-bold">What's included</h6>
+                        </div>
+                        <ul class="list-group list-group-flush text-secondary" style="font-size: 1.2rem;">
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> - Excepteur sint occaecat velit</li>
+                          <li class="list-group-item">- Excepteur sint occaecat velit</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="btn btn-primary font-weight-bold px-5 py-2 w-100">Start free trial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">  
+                        <div class="d-flex ml-4 mt-5">
+                            <h2 class="text-secondary font-weight-bold mt-1">$</h2>
+                            <h1 style="font-family:Playfair Display, serif;" class="font-weight-bold">47</h1>
+                            <p class="text-secondary mt-3 h6">/m</p>
+                        </div>
+                        <p class="ml-4 text-secondary">Lorem ipsum is a common text</p>
+                        <div class="card-body">
+                          <h6 class="card-title font-weight-bold">What's included</h6>
+                        </div>
+                        <ul class="list-group list-group-flush text-secondary" style="font-size: 1.2rem;">
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> - Excepteur sint occaecat velit</li>
+                          <li class="list-group-item">- Excepteur sint occaecat velit</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="btn btn-primary font-weight-bold px-5 py-2 w-100">Start free trial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 d-flex justify-content-md-center col-sm-12">
+                    <div class="card">  
+                        <div class="d-flex ml-4 mt-5">
+                            <h2 class="text-secondary font-weight-bold mt-1">$</h2>
+                            <h1 style="font-family:Playfair Display, serif;" class="font-weight-bold">7</h1>
+                            <p class="text-secondary mt-3 h6">/m</p>
+                        </div>
+                        <p class="ml-4 text-secondary">Lorem ipsum is a common text</p>
+                        <div class="card-body">
+                          <h6 class="card-title font-weight-bold">What's included</h6>
+                        </div>
+                        <ul class="list-group list-group-flush text-secondary" style="font-size: 1.2rem;">
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> <i class="fas fa-check text-white rounded-circle py-1 px-1 mr-1" style="font-size:0.8rem; background-color: rgb(72, 175, 72);"></i> Excepteur sint occaecat velit</li>
+                          <li class="list-group-item"> - Excepteur sint occaecat velit</li>
+                          <li class="list-group-item">- Excepteur sint occaecat velit</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="btn btn-primary font-weight-bold px-5 py-2 w-100">Start free trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+
+    </div>
+    <!-- <div class="container-fluid dark-grey ">
+        <div class="container h-25  mt-5 p-5" style="background-color: #007bff;">
+            <h1 style="background-color: #007bff;color: white;    font-family: Playfair Display, serif;font-weight: 900;">For previewing layouts and visual?</h1>
+                
+            </div>
+    </div> -->
+    <div class="container-fluid dark-grey ">
+    <div class="container  dark-grey p-5">
+        <div class="row">
+            <div class="col-8 p-5" style="background-color: #007bff;">
+                <h1 style="background-color: #007bff;color: white;    font-family: Playfair Display, serif;font-weight: 900;">For previewing layouts and visual?</h1>
+            </div>
+            <div class="col-4"style="background-color: #007bff;">
+                <form class="form-inline my-3 mt-5 my-lg-0">
+                    <input class="form-control mr-sm-2  w-75 h-25 px-4 py-2"style="margin-top: 3.3rem;" type="email" placeholder="your best email" aria-label="Search">
+                  </form>
+            </div>
+        </div>
+   
+    <div class="row mt-5 ">
+        <div class="col-3">
+            <img src="./pics/logo.svg" alt="">
+
+        </div>
+        <div class="col-7"></div>
+        <div class="col-2">
+            <i class="fab fa-facebook-f" style="color: #007bff"></i>
+            <i class="fab fa-twitter"style="color: #007bff"></i>
+            <i class="fab fa-instagram"style="color: #007bff"></i>
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+<!-- dif bt and arry or node list and html collecetion  -->
+<!-- fuction ready -->
+diff bt 
+</html>
